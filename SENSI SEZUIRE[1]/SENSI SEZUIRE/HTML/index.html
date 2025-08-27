@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sensi Seizure – Assist. Anticipate. Act.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/assets/css/modern.css">
+</head>
+<body>
+  <!-- Nav -->
+  <header>
+    <div class="container nav" role="navigation" aria-label="Primary">
+      <a class="brand" href="#top">
+        <span class="logo" aria-hidden="true"></span>
+        <span>Sensi Seizure</span>
+      </a>
+      <div class="nav-actions">
+        <a class="btn" href="#about">About</a>
+        <a class="btn" href="#team">Team</a>
+        <a class="btn btn-primary" href="#contact" id="cta">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+   <!-- Hero -->
+  <main id="top" class="container hero">
+    <p class="eyebrow">
+         Assist <span class="sep">·</span> Anticipate <span class="sep">·</span> Act
+    </p>
+
+    <h1>
+      Meet <span class="headline-gradient">Sensi&nbsp;Seizure</span> — a compassionate health companion designed to help people living with seizures track triggers, stay on routine, and alert loved ones when it matters.
+    </h1>
+    <p class="lead">
+      Built by AI Global Networks in partnership with lived experience, Sensi Seizure brings together reminders, trigger journaling, and smart guidance to support patients and caregivers—without overwhelming them. Simple. Private. Always there when you need it.
+    </p>
+
+    <div class="hero-card">
+      <div class="pill"><span class="dot"></span> In active development</div>
+      <div class="spacer"></div>
+      <p class="sub" id="about">
+        Our first release focuses on daily routines (medication and hydration reminders), quick logging of possible triggers (sleep, stress, light), and optional shareable reports for clinicians or caregivers. Future iterations will explore proactive insights and secure, opt‑in alerting.
+      </p>
+      <a class="btn btn-primary" href="#contact" aria-describedby="about">Join the early list</a>
+    </div>
+  </main>
+
+   <!-- Team -->
+  <section id="team">
+    <div class="container">
+      <h2>Meet the team</h2>
+      <p class="sub">Human‑centred design meets reliable engineering.</p>
+      <div class="grid team">
+        <article class="card">
+          <div class="member">
+             <div class="avatar">
+               <img src="/assets/img/junaid.jpg"
+                    alt="Junaid Alexander"
+                    loading="lazy"
+                    width="76" height="76">
+             </div>
+            <div>
+              <h3 class="h3">Junaid Alexander</h3>
+              <div class="role">Project Manager & UI/UX · Lived Experience (26)</div>
+            </div>
+          </div>
+          <p class="mt-12">Junaid leads the vision and product experience, drawing on personal experience with seizures to ensure the app is empathetic, accessible, and genuinely helpful.</p>
+        </article>
+
+        <article class="card">
+          <div class="member">
+            <div class="avatar">
+               <img src="/assets/img/lesedi.jpg"
+                    alt="Lesedi"
+                    loading="lazy"
+                    width="76" height="76">
+             </div>
+            <div>
+              <h3 class="h3">Lesedi</h3>
+              <div class="role">Engineering Lead · AI Global Networks</div>
+            </div>
+          </div>
+          <p class="mt-12">Leads the core app architecture and data models, focusing on security, reliability, and a smooth user experience.</p>
+        </article>
+
+        <article class="card">
+          <div class="member">
+            <div class="avatar">
+               <img src="/assets/img/byron.jpg"
+                    alt="Byron"
+                    loading="lazy"
+                    width="76" height="76">
+             </div>
+            <div>
+              <h3 class="h3">Byron</h3>
+              <div class="role">Product Engineering · AI Global Networks</div>
+            </div>
+          </div>
+          <p class="mt-12">Builds the features patients use every day—from reminders to reports—working closely with the team to ship high‑quality updates.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+   <!-- Contact -->
+  <section id="contact">
+    <div class="container grid contact">
+      <div>
+        <h2>Get in touch</h2>
+        <p class="sub">Join the early access list or reach out to collaborate.</p>
+        <div class="card">
+          <form id="interest-form" aria-label="Early access form" novalidate>
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+            </div>
+            <div>
+              <label for="occupation">Occupation</label>
+             <input id="name" name="name" type="text" placeholder="Occupation" required />
+            </div>
+            <div>
+              <label for="message">Message (optional)</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us how Sensi Seizure could help you…"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Request early access</button>
+            <p class="notice">By submitting, you agree to be contacted about Sensi Seizure updates. We respect your privacy and never sell your data.</p>
+            <p class="notice" id="form-status" role="status" aria-live="polite" style="display:none"></p>
+          </form>
+        </div>
+      </div>
+
+      <aside class="card" aria-label="Highlights">
+        <h3 class="h3 mt-0">What we’re building first</h3>
+        <ul class="feature-list">
+          <li>Smart reminders for meds, hydration, and sleep routine</li>
+          <li>One‑tap trigger logging (light, stress, sleep, nutrition)</li>
+          <li>Optional weekly summaries you can share securely</li>
+          <li>Works offline; your data stays on your device by default</li>
+        </ul>
+        <div class="pills" style="text-align:center">
+        <div class="pills" >
+          <span class="pill"><span class="dot accent"></span>Health‑first palette</span>
+          <span class="pill"><span class="dot"></span>Privacy by design</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> AI Global Networks · Sensi Seizure
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
